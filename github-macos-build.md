@@ -6,11 +6,11 @@ Github actions are a great product which makes CI easy to setup.
 
 There's just one catch: the MacOS machines cost 10x Linux machines, starting at $0.08 per minute.
 
-That means for one machine year, you are paying 365 x 24 x 60 \* 0.08 = $42,048! This is the price of 70 brand new Mac minis.
+That means for one machine year, you are paying 365 x 24 x 60 x 0.08 = $42,048! This is the price of 70 brand new Mac minis.
 
-If you are maintaining just 3 apps, with a new build every day at 25 minutes per build, this will still cost you 3 _ 25 _ 365 \* 0.08 = $2190 per year!
+If you are maintaining just 3 apps, with a new build every day at 25 minutes per build, this will still cost you 3 x 25 x 365 x 0.08 = $2,190 per year!
 
-At the moment we deploy about 50 apps, on a weekly basis with 2-3 builds per app per week (for demos as well as production). This setup alone gets us to 50 _ 3 _ 52 _ 25 _ 0.08 = $15,600.
+At the moment we deploy about 50 apps, on a weekly basis with 2-3 builds per app per week (for demos as well as production). This setup alone gets us to 50 x 3 x 52 x 25 x 0.08 = $15,600.
 
 Not only is this an obnoxious expense, it should be every team's endeavour to encourage faster development cycles and more frequent build/test cycles.
 
